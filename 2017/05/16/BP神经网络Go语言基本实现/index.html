@@ -84,12 +84,52 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="WHY NOTE">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="BP神经网络的原理表现得挺清楚的。
+1.初始化一个BPNN
+2.输入训练集和预期输出，训练网络
+3.网络训练好了，用来预测数据
+package main
+import (
+  &amp;quot;fmt&amp;quot;
+  &amp;quot;math&amp;quot;
+  &amp;quot;math/rand&amp;quot;
+)
+const MAX_H_COUNT = 100
+//bp人工神经网络结构
+type BPNN stru">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BP神经网络Go语言基本实现">
+<meta property="og:url" content="http://yoursite.com/2017/05/16/BP神经网络Go语言基本实现/index.html">
 <meta property="og:site_name" content="WHY NOTE">
+<meta property="og:description" content="BP神经网络的原理表现得挺清楚的。
+1.初始化一个BPNN
+2.输入训练集和预期输出，训练网络
+3.网络训练好了，用来预测数据
+package main
+import (
+  &amp;quot;fmt&amp;quot;
+  &amp;quot;math&amp;quot;
+  &amp;quot;math/rand&amp;quot;
+)
+const MAX_H_COUNT = 100
+//bp人工神经网络结构
+type BPNN stru">
+<meta property="og:updated_time" content="2017-05-16T08:24:49.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="WHY NOTE">
+<meta name="twitter:title" content="BP神经网络Go语言基本实现">
+<meta name="twitter:description" content="BP神经网络的原理表现得挺清楚的。
+1.初始化一个BPNN
+2.输入训练集和预期输出，训练网络
+3.网络训练好了，用来预测数据
+package main
+import (
+  &amp;quot;fmt&amp;quot;
+  &amp;quot;math&amp;quot;
+  &amp;quot;math/rand&amp;quot;
+)
+const MAX_H_COUNT = 100
+//bp人工神经网络结构
+type BPNN stru">
 
 
 
@@ -117,13 +157,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/05/16/BP神经网络Go语言基本实现/"/>
 
 
 
 
 
-  <title> WHY NOTE </title>
+  <title> BP神经网络Go语言基本实现 | WHY NOTE </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -144,9 +184,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -227,9 +265,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -262,10 +300,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/05/16/BP神经网络Go语言基本实现/" itemprop="url">
-                  BP神经网络Go语言基本实现
-                </a>
+                BP神经网络Go语言基本实现
               
             
           </h1>
@@ -316,9 +351,7 @@
       
 
       
-        
-          
-            <p>BP神经网络的原理表现得挺清楚的。</p>
+        <p>BP神经网络的原理表现得挺清楚的。</p>
 <p>1.初始化一个BPNN</p>
 <p>2.输入训练集和预期输出，训练网络</p>
 <p>3.网络训练好了，用来预测数据</p>
@@ -556,16 +589,20 @@ func main() {
   bp.UseBp(input)
 }
 </code></pre>
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -574,396 +611,34 @@ func main() {
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/17/hexo博客、gitHub仓库与域名关联配置/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Hongyue Wang">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.jpeg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="WHY NOTE">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="WHY NOTE" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/01/17/hexo博客、gitHub仓库与域名关联配置/" rel="next" title="hexo博客、gitHub仓库与域名关联配置">
+                <i class="fa fa-chevron-left"></i> hexo博客、gitHub仓库与域名关联配置
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2017/01/17/hexo博客、gitHub仓库与域名关联配置/" itemprop="url">
-                  hexo博客、gitHub仓库与域名关联配置
-                </a>
-              
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-17T21:57:47+08:00">
-                2017-01-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>今天把博客配好了……<br>可能是因为经常被打断，遇到了很多傻问题，绕了不少弯。首先是 博客其实早早就配好了，只是没有跟个人域名绑定起来，输入github对应域名可以访问。不知道看了一个什么教程，我新建了一个叫testBlog的文件夹，把github上的代码pull下来了，然后开始各种折腾，不知道为什么，里面少了很多文件，比如说_config.yml文件都没有，而且不能用hexo的命令。本来都已经把个人域名关联好了，这一下子就傻眼了，testBlog下有一个叫EstherStarry.github.io的文件夹，里面才是博客相关的内容。于是要重新把原配（Blog文件夹）关联github了，git init、git add .、git commit -m “message”、git remote add origin <a href="https://XXX.github.io、git" target="_blank" rel="external">https://XXX.github.io、git</a> push -u origin master，最后还强制了一下，把-u换成-f了。再把CNAME文件复制过来再更新了一下代码，就可以在个人域名正常访问了。</p>
-<p>写得比较草率，细节也不清楚。实际上是很简单的，只是我浪费了不少时间，干活的时候真的是不能被打断…</p>
-<h4 id="另外hexo建博客看这个就好了"><a href="#另外hexo建博客看这个就好了" class="headerlink" title="另外hexo建博客看这个就好了"></a>另外hexo建博客看这个就好了</h4><p><a href="http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">HEXO搭建个人博客</a><br><a href="http://baixin.io/2016/06/HEXO_Advanced/" target="_blank" rel="external">HEXO进阶</a></p>
-<h4 id="常用的hexo命令"><a href="#常用的hexo命令" class="headerlink" title="常用的hexo命令"></a>常用的hexo命令</h4><p>hexo new “my blog”<br>hexo s -p 4001<br>hexo clean<br>hexo g<br>hexo deploy<br>喜欢用的markdown编辑器Mou在MacOS10.12.2上用不了…</p>
-<h4 id="常用MarkDown语法"><a href="#常用MarkDown语法" class="headerlink" title="常用MarkDown语法"></a>常用MarkDown语法</h4><p>分段：两个回车<br>换行：两个空格 + 回车<br>标题：# ~ ###### 井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题<br>引用：&gt;<br>列表：<em> ， + ， - ， 1. ，选其中之一，注意后面有个空格<br>代码区块：四个空格 开头<br>链接：<a href="链接地址">文字</a><br>图片：<img src="图片地址" alt="图片说明"> ，图片地址可以是本地路劲，也可以是网络地址<br>强调：<strong>文字</strong> ， <strong>文字</strong> ， <em>文字</em> ， </em> 文字 *<br>代码：<code>，</code></p>
-<h4 id="本站主题-amp-文件配置"><a href="#本站主题-amp-文件配置" class="headerlink" title="本站主题&amp;文件配置"></a>本站主题&amp;文件配置</h4><p>里面讲得很清楚: <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">next</a><br>文件配置说明: <a href="http://www.isetsuna.com/hexo/install-config/" target="_blank" rel="external">Blog/_config.yml</a><br><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="external">主题推荐@zhihu</a></p>
-<h4 id="11-18"><a href="#11-18" class="headerlink" title="11:18"></a>11:18</h4><p>有个小问题啊…我hexo clean/hexo g/hexo deploy和git的命令不能同时用？？</p>
-<h4 id="11-32"><a href="#11-32" class="headerlink" title="11:32"></a>11:32</h4><p>神奇的事。我在进入setting下的custom domain在文本框中填写whyyue.com，不光报404的问题解决了，之前好的时候主题显示不正确的问题也好了…之前以为只是加了CNAME文件就好了，没想到custom domain也要改…</p>
-<h4 id="20170121"><a href="#20170121" class="headerlink" title="20170121"></a>20170121</h4><p>本地改好后，hexo clean/hexo g/hexo deploy之后在localhost仍能正常看，在网站上打开就会崩404，而如果用git提交修改就可以…不知道为什么。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/17/My-New-Post/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Hongyue Wang">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.jpeg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="WHY NOTE">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="WHY NOTE" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/17/My-New-Post/" itemprop="url">
-                  如何上传本地代码到github上
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-17T20:01:01+08:00">
-                2017-01-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>##第一步：建立git仓库<br>cd到你的本地项目根目录下，执行git命令，此命令会在当前目录下创建一个.git文件夹。<br>git init</p>
-<p>##第二步：将项目的所有文件添加到仓库中<br>git add .<br>这个命令会把当前路径下的所有文件，添加到待上传的文件列表中。<br>如果想添加某个特定的文件，只需把.换成特定的文件名即可</p>
-<p>##第三步：将add的文件commit到仓库<br>git commit -m “注释语句”</p>
-<p>##第四步：将本地的仓库关联到github上<br>git remote add origin <a href="https://自己的仓库url地址" target="_blank" rel="external">https://自己的仓库url地址</a></p>
-<p>##第五步，上传代码到github远程仓库<br>git push -u origin master<br>若出现异常(reject)，则使用git push -f origin master 强制推送<br>执行完后，如果没有异常，等待执行完就上传成功了，中间可能会让你输入Username和Password，你只要输入github的账号和密码就行了.</p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/01/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Hongyue Wang">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.jpeg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="WHY NOTE">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="WHY NOTE" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/01/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-01T22:00:05+08:00">
-                2017-01-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
           
           </div>
@@ -971,6 +646,10 @@ func main() {
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -1139,6 +818,10 @@ func main() {
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
@@ -1170,6 +853,10 @@ func main() {
 
   
 
+  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
+      <!-- UY END -->
   
 
 
